@@ -1,0 +1,18 @@
+# Databricks Asset Bundle workflow example
+bundle:
+  name: bi_assignment_spark_etl
+
+resources:
+  jobs:
+    bi_assignment_etl_job:
+      name: bi-assignment-spark-etl
+      tasks:
+        - task_key: run_bi_assignment_etl
+          notebook_task:
+            notebook_path: ../notebooks/01_end_to_end_etl.py
+            base_parameters:
+              raw_base_path: /Volumes/workspace/bi_assignment/etl_assignment/data/raw
+              target_catalog: workspace
+              target_schema: bi_assignment
+              target_base_path: /Volumes/workspace/bi_assignment/etl_assignment/tmp
+          existing_cluster_id: <replace-with-cluster-id>

@@ -1,0 +1,7 @@
+issue_type,order_id,customer_id,order_ts,product_id,quantity,order_status,issue_detail
+duplicate_order_line,A-005,21456,2019-01-12 09:28:00,2,1,shipped,duplicate_count=3
+faulty_transaction,A-010,42491,2020-01-19 02:52:00,8,6,created,non_revenue_status
+faulty_transaction,A-011,42492,2020-01-20 02:52:00,9,4,created,non_revenue_status
+faulty_transaction,A-012,42492,2020-01-21 02:52:00,10,1,created,non_revenue_status
+faulty_transaction,A-21,,2020-01-23 02:52:00,7,2,created,missing_customer_id; non_revenue_status
+faulty_transaction,A-22,,2020-01-23 02:52:00,8,3,cancelled,missing_customer_id; non_revenue_status
