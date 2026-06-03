@@ -1,5 +1,5 @@
 # Databricks runtime configuration for BI assignment
 raw_base_path: /Volumes/workspace/bi_assignment/etl_assignment/data/raw
-target_base_path: /Volumes/workspace/bi_assignment/etl_assignment/tmp
+target_base_path: /Volumes/workspace/bi_assignment/etl_assignment/output
 target_catalog: workspace
 target_schema: bi_assignment
