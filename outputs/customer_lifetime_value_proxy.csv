@@ -1,5 +1,0 @@
-customer_id,region,customer_type,is_active,lifetime_revenue_usd,lifetime_order_count,lifetime_quantity
-42492,West,Enterprise,true,3438.07,9,49.1
-32483,East,Consumer,false,319.07,2,8
-42491,West,Enterprise,false,136.12,1,3
-21456,Central,Small Business,true,127.96,2,7
